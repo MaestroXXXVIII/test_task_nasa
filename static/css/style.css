@@ -1,0 +1,170 @@
+html
+body {
+    background: #FAFAFA;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #0A121E;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 0px 150px;
+    /*margin: 0px;*/
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 50, 43, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.navbar-nav {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 45px;
+    flex: 1 0 0;
+}
+
+.nav-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.btn {
+    background: #FF342B;
+    display: flex;
+    padding: 12px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    }
+.main-container {
+    padding: 90px 150px;
+    gap: 127px;
+}
+
+.main-title {
+    margin-bottom: 15px;
+    font-size: 56px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+}
+.main-text {
+    width: 751px;
+    padding-top: 0px;
+    text-align: center;
+    margin-top: 15px;
+    color: #3C3C3C;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.main-content {
+    padding: 0px 150px;
+}
+
+.icon-title {
+    color: #0A121E;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+}
+
+.slider-title {
+    color: #FFF; 
+    font-size: 42px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.84px; 
+}
+
+ /* Слайдер */
+/* .slick-slide{} */
+/* Слайдер запущен */
+/* .slick-slider.slick-initialized{} */
+/* Слайдер с точками */
+/* .slick-slider.slick-dotted{} */
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд
+
+.slider-for .slick-slide{
+
+}
+/* Слайд активный (показывается) */
+/* .slick-slide.slick-active{}  */
+/* Слайд основной */
+/* .slick-slide.slick-current{}  */
+/* Слайд по центру */
+/* .slick-slide.slick-center{}  */
+/* Клонированный слайд */
+/* .slick-slide.slick-cloned{}  */
+/* Стрелка */
+/* .slick-arrow{}  */
+/* Стрелка влево */
+/* .slick-arrow.slick-prev{}  */
+/* Стрелка вправо */
+/* .slick-arrow.slick-next{}  */
+/* Стрелка не активная */
+/* .slick-arrow.slick-disabled{}  */
+/* Точки (булиты) */
+/* .slick-dots{}  */
+/* .slick-dots li{}  */
+/* Активная точка */
+/* .slick-dots li.slick-active{}  */
+/* Элемент точки */
+/* .slick-dots li button{} */
+
+/*Конкретный слайдер*/
+
+.slider-nav {
+    padding: 0px 30px;
+    position: relative;
+} 
+
+.slider-nav .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 56px;
+    height: 56px;
+} 
+
+.slider-nav .slick-arrow.slick-prev{
+    left: 0;
+    background: url('/static/img/arrow.svg') 0 0 / 100% no-repeat;
+}
+
+.slider-nav .slick-arrow.slick-next{
+    right: 0;
+    background: url('/static/img/arrow_next.svg') 0 0 / 100% no-repeat;
+}
