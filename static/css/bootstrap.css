@@ -768,7 +768,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 :root {
@@ -8229,7 +8229,7 @@ textarea.form-control-lg {
 }
 
 .pt-5 {
-  padding-top: 3rem !important;
+  padding-top: 90px !important;
 }
 
 .pe-0 {
